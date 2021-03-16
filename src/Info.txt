@@ -1,0 +1,17 @@
+
+Poradnik:
+
+P1_Main
+nasz_simulink
+Code -> external device
+Start real-time
+Przesunicie do lewej
+Reset encoder
+Ustawienie na środek
+Zasilanie
+
+
+
+Macierze linearyzacji  -  TODO
+
+
