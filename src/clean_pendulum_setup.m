@@ -1,8 +1,8 @@
 clear all;
 
 M = 0.503 + 0.045;  % masa wozka
-f_c = 0.5;          % tarcie wozka
-f_p = 6.65e-5;      % tarcie rotacyjne wahadla
+f_c = 1.0942;  %0.5;          % tarcie wozka
+f_p = 0.10436; %6.65e-5;      % tarcie rotacyjne wahadla
 
 m_pw = 2 * 11 / 1000;
 m_ps = 2 * 20.5 / 1000;
