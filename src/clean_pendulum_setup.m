@@ -40,3 +40,8 @@ T_teor = 2*pi*sqrt(I/(m*g*L));
 % T = 1.471[s]
 % Czas wytlumienia z maksymalnego polozenia
 % t_w = 201[s]
+
+theta0 = -pi/10;
+% Regulator PID
+theta_fin = 0;
+x_fin = 0;
