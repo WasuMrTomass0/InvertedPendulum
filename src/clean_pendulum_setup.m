@@ -41,7 +41,14 @@ T_teor = 2*pi*sqrt(I/(m*g*L));
 % Czas wytlumienia z maksymalnego polozenia
 % t_w = 201[s]
 
+% Wychylenie poczatkowe:
 theta0 = -pi/10;
-% Regulator PID
+
+% Wartosci docelowe
 theta_fin = 0;
 x_fin = 0;
+
+% Maksymalne dopuszczalne wartosci - moduly
+theta_max = pi/7;
+x_max = 0.9;
+
