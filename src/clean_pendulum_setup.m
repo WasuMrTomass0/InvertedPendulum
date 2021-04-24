@@ -42,7 +42,8 @@ T_teor = 2*pi*sqrt(I/(m*g*L));
 % t_w = 201[s]
 
 % Wychylenie poczatkowe:
-theta0 = -pi/10;
+theta0 = -pi;
+x0 = 0.5;
 
 % Wartosci docelowe
 theta_fin = 0;
