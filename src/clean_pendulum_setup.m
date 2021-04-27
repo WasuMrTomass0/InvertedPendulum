@@ -51,5 +51,7 @@ x_fin = 0;
 
 % Maksymalne dopuszczalne wartosci - moduly
 theta_max = pi/7;
-x_max = 0.9;
+x_max = 0.75;
 
+% Martwa strefa
+x_deadzone = 0.06;
