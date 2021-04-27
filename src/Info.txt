@@ -18,3 +18,15 @@ Macierze linearyzacji  -  TODO
 
 Regulator kąta: P=-35; I=0; D=10; N=0.2  
 Regulator położenia wózka: P=4; I=0; D=6; N=1,47
+
+PID wózek:
+P 2
+I 0
+D 3.5
+N 3
+ 
+PID wahadło
+P -25
+I 0
+D 6
+N 0
