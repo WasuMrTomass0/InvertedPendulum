@@ -60,18 +60,18 @@ x_deadzone = 0.06;
 %%
 % Plot data
 
-plot(out.x), grid on
-title("Powrot do polozenia bazowego");
-xlabel("Czas [s]");
-ylabel("Polozenie [m]");
+% plot(out.x), grid on
+% title("Powrot do polozenia bazowego");
+% xlabel("Czas [s]");
+% ylabel("Polozenie [m]");
 
-% figure();
-% subplot(3,1,1), plot(out.x), grid on;
-% title("Stabilizacja wozka, \theta_0 \approx -\pi/12, x_0 = 0.3");
-% xlabel("Czas [s]"), ylabel("Polozenie wozka [m]");
-% subplot(3,1,2), plot(out.theta), grid on;
-% title("");
-% xlabel("Czas [s]"), ylabel("Wychylenie wahadla [rad]");
-% subplot(3,1,3), plot(out.u), grid on;
-% title("");
-% xlabel("Czas [s]"), ylabel("Sterowanie [N]");
+figure();
+subplot(3,1,1), plot(out.x), grid on;
+title("Stabilizacja wozka, \theta_0 \approx -\pi/12, x_0 = 0.3");
+xlabel("Czas [s]"), ylabel("Polozenie wozka [m]");
+subplot(3,1,2), plot(out.theta), grid on;
+title("");
+xlabel("Czas [s]"), ylabel("Wychylenie wahadla [rad]");
+subplot(3,1,3), plot(out.u), grid on;
+title("");
+xlabel("Czas [s]"), ylabel("Sterowanie [N]");

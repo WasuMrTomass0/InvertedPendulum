@@ -216,10 +216,11 @@ t = data.P1_Data.time;
 theta = data.P1_Data.signals(2).values;
 x = data.P1_Data.signals(4).values;
 u = data.P1_Data.signals(1).values;
-
 % Wybor od ktorej probki
 n_start = 3000;
+% Do ktorej probki
 n_end = 8000;
+
 t = t(n_start:n_end) - t(n_start);
 theta = theta(n_start:n_end);
 x = x(n_start:n_end);
